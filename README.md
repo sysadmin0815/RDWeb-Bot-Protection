@@ -4,7 +4,11 @@ Protect your Windows RDWeb Server from malicious bots and brute force attempts.
 ## Disclaimer
 All information and code is provided as is without any warranty!!<br>
 **Always backup** your files before doing changes. Prefered, test the changes in a dev environment first.<br>
-The code was **successfully tested on Windows Server 2019** with RDWeb and IIS Role installed.
+The code was **successfully tested on Windows Server 2019** with RDWeb and IIS Role installed.<br>
+
+> [!CAUTION]
+> Do not replace the files on your server with copy & paste! This repo contains code snippets only. Modify the files on your server.
+
 
 ## How to implement
 Root directory is C:\Windows\Web\
