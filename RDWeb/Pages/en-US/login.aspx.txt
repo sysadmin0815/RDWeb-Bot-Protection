@@ -16,6 +16,6 @@ NameValueCollection objQueryString = Request.QueryString;
 //line 307 add this code
 //after <input type="hidden" name="ClaimsToken" value=""/>
 
-<input type="text" name="is_bad" style="display:none;" tabindex="-1" value=""/>
+<input type="text" name="is_bad" style="display:none;" tabindex="-1" value=""/> //add this line
 
 //before <input name="isUtf8" type="hidden" value="1"/>
