@@ -6,7 +6,7 @@ All information and code is provided as is without any warranty!!<br>
 **Always backup** your files before doing changes. Prefered, test the changes in a dev environment first.<br>
 The code was **successfully tested on Windows Server 2019** with RDWeb and IIS Role installed.
 
-## How to impement
+## How to implement
 Root directory is C:\Windows\Web\
 You have to add/replace some code in the files *login.aspx, logoff.aspx* and *webscripts-domain.js*<br><br>
 **File locations:**<br>
