@@ -20,8 +20,8 @@ RDWeb/Pages/en-US/logoff.aspx<br><br>
 *All files in the repo have the .txt name extension. Remove .txt to get the default file name extension*
 
 ## Why do I need this code?
-I was searching for a "bot protection" for our RDWeb Servers. I tried it with JS and Powershell but was not appy with the results.
-Our RDWeb Server got more and more hammered with POST requests, so I had to implement something.<br><br>
+I was searching for a "bot protection" for our RDWeb Servers. We tried it with JS and Powershell but was not appy with the results.
+Our RDWeb Server got more and more hammered with POST requests, so we had to implement something.<br><br>
 
 **Here is a log (IP addresses removed) before the code was implemented:**<br>
 *If your IIS webserver log looks like this, you need it* :) <br>
@@ -38,7 +38,7 @@ After the code is implemented the log looks much better.
 Check your current webserver logs at *C:\inetpub\logs\LogFiles\W3SVC1* and compaire them with the old logs.
 
 ## Credits
-Special thanks to [thomas-417](https://github.com/thomas-417) for helping me on the C# side!
+Special thanks to [thomas-417](https://github.com/thomas-417) for doing the C#!
 
 
 
