@@ -5,7 +5,7 @@ NameValueCollection objQueryString = Request.QueryString;
                 strReturnUrlPage = objQueryString["ReturnUrl"];
                 strReturnUrl = "?ReturnUrl=" + AntiXssEncoder.UrlEncode(strReturnUrlPage);
             } else {				
-				if (objQueryString["val_user"] != "z4RMBzahjUaSGdfKHHghV") {
+				if (objQueryString["is_bot"] != "z4RMBzahjUaSGdfKHHghV") {
 					Response.StatusCode = 404;
 					Response.End();				
 				}
@@ -16,6 +16,6 @@ NameValueCollection objQueryString = Request.QueryString;
 //line 307 add this code
 //after <input type="hidden" name="ClaimsToken" value=""/>
 
-<input type="text" name="is_bad" style="display:none;" tabindex="-1" value=""/> //add this line
+<input type="text" name="is_bot" style="display:none;" tabindex="-1" value=""/> // --------- add this line
 
 //before <input name="isUtf8" type="hidden" value="1"/>
