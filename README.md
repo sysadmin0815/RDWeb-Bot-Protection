@@ -19,14 +19,14 @@ RDWeb/Pages/en-US/login.aspx<br>
 RDWeb/Pages/en-US/logoff.aspx<br><br>
 *All files in the repo have the .txt name extension. Remove .txt to get the default file name extension*
 
-## Why do I need this script?
+## Why do I need this code?
 I was searching for a "bot protection" for our RDWeb Servers. I tried it with JS and Powershell but was not appy with the results.
 Our RDWeb Server got more and more hammered with POST requests, so I had to implement something.<br><br>
 
 **Here is a log (IP addresses removed) before the code was implemented:**<br>
-*If you IIS webserver log looks like this, this repo is for you.*<br><br>
+*If your IIS webserver log looks like this, you need it* :) <br>
 ![image](https://github.com/sysadmin0815/RDWeb-Bot-Protection/assets/81157346/b4c42f42-abad-46f3-90cc-eb6bf85eabb5)
-<br>IIS Log default path: C:\inetpub\logs\LogFiles\W3SVC1\xxx.log<br>
+<br>IIS Log default path: C:\inetpub\logs\LogFiles\W3SVC1\xxx.log<br><br>
 > [!IMPORTANT]
 > The code in this repo works for the webserver only, not the gateway service!
 <br>
