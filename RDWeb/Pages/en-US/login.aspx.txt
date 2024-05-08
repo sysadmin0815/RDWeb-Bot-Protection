@@ -5,7 +5,7 @@ NameValueCollection objQueryString = Request.QueryString;
                 strReturnUrlPage = objQueryString["ReturnUrl"];
                 strReturnUrl = "?ReturnUrl=" + AntiXssEncoder.UrlEncode(strReturnUrlPage);
             } else {				
-				if (objQueryString["is_bot"] != "z4RMBzahjUaSGdfKHHghV") {
+				if (objQueryString["is_bot"] != "z4RMBzahjUaSGdfKHHghV") {   //------- this is the unique random string. use the same string as in webscripts-domain.js
 					Response.StatusCode = 404;
 					Response.End();				
 				}
