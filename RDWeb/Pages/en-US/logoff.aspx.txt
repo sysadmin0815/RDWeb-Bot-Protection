@@ -35,7 +35,9 @@
                     }
                 }
             }
-			strQueryString = strQueryString + "?ReturnUrl=/RDWeb/Pages/en-US/Default.aspx";   //add this line to get logout button working and redirecting to login page
+		else {
+		strQueryString = strQueryString + "?ReturnUrl=/RDWeb/Pages/en-US/Default.aspx";   //add this line to get logout button working and redirecting to login page
+            }
             Response.Redirect( "login.aspx" +strQueryString );
         }
     }
