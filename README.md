@@ -12,7 +12,8 @@ You have to add/replace some code in the files *login.aspx, logoff.aspx* and *we
 **File locations:**<br>
 RDWeb/Pages/webscripts-domain.js<br>
 RDWeb/Pages/en-US/login.aspx<br>
-RDWeb/Pages/en-US/logoff.aspx
+RDWeb/Pages/en-US/logoff.aspx<br><br>
+*All files in the repo have the .txt name extension. Remove .txt to get the default file name extension*
 
 ## Why do I need this script?
 I was searching for a "bot protection" for our RDWeb Servers. I tried it with JS and Powershell but was not appy with the results.
