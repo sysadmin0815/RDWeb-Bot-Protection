@@ -1,0 +1,12 @@
+//at line 23 add this code
+//after hideElement(document.getElementById("trErrorServerConfigChanged"));
+
+if (objForm.elements["is_bot"].value != "") {
+	window.location.href = "https://my404page.xyz"; //change the href to any URL you like or error.aspx response
+        showElement(document.getElementById("trErrorIncorrectCredentials"));
+        bStopSubmission = true;
+} else {
+	objForm.elements["is_bot"].value = "z4RMBzahjUaSGdfKHHghV" //important! generate your own unique random string for each rdweb instance
+	}
+	
+//before if ( objForm != null )

@@ -1,0 +1,21 @@
+//line 120 add the else condition
+NameValueCollection objQueryString = Request.QueryString;	
+            if ( objQueryString["ReturnUrl"] != null )
+            {
+                strReturnUrlPage = objQueryString["ReturnUrl"];
+                strReturnUrl = "?ReturnUrl=" + AntiXssEncoder.UrlEncode(strReturnUrlPage);
+            } else {				
+				if (objQueryString["val_user"] != "z4RMBzahjUaSGdfKHHghV") {
+					Response.StatusCode = 404;
+					Response.End();				
+				}
+			}
+
+
+
+//line 307 add this code
+//after <input type="hidden" name="ClaimsToken" value=""/>
+
+<input type="text" name="is_bad" style="display:none;" tabindex="-1" value=""/>
+
+//before <input name="isUtf8" type="hidden" value="1"/>
