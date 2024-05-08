@@ -20,7 +20,7 @@ RDWeb/Pages/en-US/logoff.aspx<br><br>
 *All files in the repo have the .txt name extension. Remove .txt to get the default file name extension*
 
 ## Why do I need this code?
-I was searching for a "bot protection" for our RDWeb Servers. We tried it with JS and Powershell but was not appy with the results.
+I was searching for a "bot protection" for our RDWeb Servers. We tried it with JS and Powershell but was not happy with the results.
 Our RDWeb Server got more and more hammered with POST requests, so we had to implement something.<br><br>
 
 **Here is a log (IP addresses removed) before the code was implemented:**<br>
